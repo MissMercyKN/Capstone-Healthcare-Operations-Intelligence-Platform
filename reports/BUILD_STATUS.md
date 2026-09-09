@@ -1,0 +1,1 @@
+Final merged candidate package structure created. Validate locally before submission.
