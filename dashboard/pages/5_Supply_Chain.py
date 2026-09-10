@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 
-from utils.data_loader import load_table
+import pandas as pd
 
 
 st.title(
@@ -9,8 +9,8 @@ st.title(
 )
 
 
-inventory = load_table(
-    "inventory"
+inventory = pd.read_csv(
+    "data/deployment/inventory.csv"
 )
 
 
